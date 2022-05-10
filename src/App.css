@@ -10,6 +10,8 @@ body {
   color: rgb(187, 166, 73);
 }
 
+/* Header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -43,6 +45,8 @@ header li a {
   font-size: 1.4rem;
   font-weight: 500;
 }
+
+/* Main */
 
 .bgvideo {
   height: 55vh;
@@ -80,6 +84,7 @@ h1 {
   padding: 0.5rem;
   font-size: 0.9rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .home_herotext li a:hover {
@@ -126,4 +131,65 @@ h2 {
 .home_paragraphs {
   margin: 0.7rem 0;
   font-size: 0.9rem;
+}
+
+/* Recipes */
+
+/* Add new recipe */
+
+.form {
+  margin: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input,
+select {
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+  width: 40vw;
+}
+
+#description,
+#instructions {
+  height: 10vh;
+}
+
+.ingredient_quantity_section {
+  display: flex;
+}
+
+.ingredient,
+.quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingredient {
+  margin-right: 3.5rem;
+}
+
+.ingredient input,
+.quantity input {
+  width: 18vw;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 10vw;
+  border-width: 2px;
+  margin-bottom: 1rem;
+  background-color: rgb(199, 186, 129);
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: inset 0 0 1px rgb(59, 59, 59);
+}
+
+button:hover {
+  box-shadow: inset 0 0 5px rgb(59, 59, 59);
 }
