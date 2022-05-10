@@ -1,11 +1,11 @@
 import React from "react";
-import Home from "./Home";
+import { Outlet } from "react-router-dom";
 
 const Main = () => {
   return (
-    <>
-      <Home />
-    </>
+    <main>
+      <Outlet />
+    </main>
   );
 };
 
