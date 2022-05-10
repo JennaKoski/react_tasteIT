@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -10,7 +9,7 @@ const Nav = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/recipecard">Recipies</Link>
+          <Link to="/recipecard">Recipes</Link>
         </li>
         <li>
           <Link to="/addrecipe">Add new recipe</Link>
