@@ -1,28 +1,56 @@
 {
-  "notes": [
+  "recipes": [
     {
-      "firstname": "Emma",
-      "lastname": "Jones",
-      "phone": "987987987",
-      "role": "Teacher",
-      "message": "Important message",
-      "id": 3
+      "name": "pancakes",
+      "author": "Jenna",
+      "countrycode": "FI",
+      "description": "asdasdasdasd",
+      "img": "https://www.wholesomeyum.com/wp-content/uploads/2017/03/wholesomeyum-Low-Carb-Keto-Pancakes-Recipe-21.jpg",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "flour",
+          "quantity": "5 dl"
+        },
+        {
+          "id": 2,
+          "ingredientName": "eggs",
+          "quantity": "2"
+        },
+        {
+          "id": 3,
+          "ingredientName": "milk",
+          "quantity": "5 dl"
+        }
+      ],
+      "instructions": "asdasdasd",
+      "id": 1
     },
     {
-      "firstname": "James",
-      "lastname": "Bond",
-      "phone": "007007007",
-      "role": "Other",
-      "message": "007",
-      "id": 4
-    },
-    {
-      "firstname": "Jenna",
-      "lastname": "Koski",
-      "phone": "2342342",
-      "role": "Student",
-      "message": "Hello",
-      "id": 7
+      "name": "lasagne",
+      "author": "Giulietta",
+      "countrycode": "IT",
+      "description": "asdasdasdasd",
+      "img": "https://kapustanvarressa.files.wordpress.com/2020/08/img_20200723_184316_178.jpg",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "cheese",
+          "quantity": "1 dl"
+        },
+        {
+          "id": 2,
+          "ingredientName": "eggplant",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "ingredientName": "pasta",
+          "quantity": "4 dl"
+        }
+      ],
+      "instructions": "asdasdasd",
+      "id": 2
     }
   ]
 }

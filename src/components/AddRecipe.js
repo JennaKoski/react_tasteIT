@@ -1,6 +1,6 @@
 import React from "react";
 
-const AddRecipe = (props) => {
+const AddRecipe = () => {
   return (
     <form>
       <h2>Add new recipe</h2>
@@ -21,6 +21,26 @@ const AddRecipe = (props) => {
         <label htmlFor="image">Image (url)</label>
         <input type="text" name="imageUrl" id="imageUrl" />
         <label htmlFor="ingredients">Ingredients</label>
+        <div className="ingredient_quantity_section">
+          <div className="ingredient">
+            <label htmlFor="ingredient">Ingredient</label>
+            <input type="text" name="ingredient" id="ingredient" />
+          </div>
+          <div className="quantity">
+            <label htmlFor="quantity">Quantity</label>
+            <input type="text" name="quantity" id="quantity" />
+          </div>
+        </div>
+        <div className="ingredient_quantity_section">
+          <div className="ingredient">
+            <label htmlFor="ingredient">Ingredient</label>
+            <input type="text" name="ingredient" id="ingredient" />
+          </div>
+          <div className="quantity">
+            <label htmlFor="quantity">Quantity</label>
+            <input type="text" name="quantity" id="quantity" />
+          </div>
+        </div>
         <div className="ingredient_quantity_section">
           <div className="ingredient">
             <label htmlFor="ingredient">Ingredient</label>

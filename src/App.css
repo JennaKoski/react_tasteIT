@@ -52,7 +52,6 @@ header li a {
   height: 55vh;
   width: 100%;
   filter: grayscale(1);
-  /* position: fixed; */
   object-fit: cover;
 }
 
@@ -133,7 +132,55 @@ h2 {
   font-size: 0.9rem;
 }
 
-/* Recipes */
+/* RecipeList & RecipeCard */
+
+.recipelist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 20vw;
+  min-height: 55vh;
+  margin: 2rem;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(199, 186, 129);
+}
+
+.card_flag {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.card_img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card h3 {
+  text-transform: capitalize;
+  margin: 1rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+  border-color: rgb(199, 186, 129);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.card a:hover {
+  text-shadow: 0 0 6px white;
+}
 
 /* Add new recipe */
 

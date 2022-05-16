@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const RecipeCard = (props) => {
+const RecipeCard = ({ img, name, data, country }) => {
   return (
     <div className="card">
-      <img src={props.img} alt={props.name} />
-      <h3>{props.name}</h3>
-      <Link to={props.name}>See more</Link>
+      <img className="card_flag" src={country.flag} alt={country.name} />
+      <img className="card_img" src={img} alt={name} />
+      <h3>{name}</h3>
+      <Link to={name} state={{ data: data, country: country }}>
+        See more
+      </Link>
     </div>
   );
 };

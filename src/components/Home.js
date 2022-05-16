@@ -27,7 +27,7 @@ const Home = () => {
             country
           </p>
           <li>
-            <Link to="/recipecard">All recipes</Link>
+            <Link to="/recipelist">All recipes</Link>
           </li>
         </div>
         <div className="home_add_recipes">
