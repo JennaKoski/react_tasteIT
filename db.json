@@ -98,7 +98,7 @@
       "author": "Juan",
       "countrycode": "PE",
       "description": "This ceviche recipe, a classic no-cook summer appetizer, works with any fresh fish fillet with mild flavor, like halibut or snapper. ",
-      "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2013%2F05%2F201004-r-classic-ceviche.jpg",
+      "img": "https://www.nospoonnecessary.com/wp-content/uploads/2014/09/Cuban-Fish-Ceviche-Recipe-129.jpg",
       "ingredients": [
         {
           "id": 1,
@@ -145,27 +145,66 @@
       "id": 4
     },
     {
+      "name": "Wiener Schnitzel",
+      "author": "lucas",
+      "countrycode": "AT",
+      "description": "Wiener schnitzel means \"Viennese cutlet\" in German, and it is one of Austria's most traditional and representative dishes. So much so, in fact, that its definition is fiercely protected by Austrian law. It must be made of veal; when made with any other type of meat, it cannot technically be called Wiener schnitzel.",
+      "img": "https://www.thespruceeats.com/thmb/n0iahXlWKJEzXiB9tWQefZjnrF4=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/wiener-schnitzel-recipe-1447089-Hero-5b587d6c46e0fb0071b0059d.jpg",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "veal cutlets",
+          "quantity": "4"
+        },
+        {
+          "id": 2,
+          "ingredientName": "brown rice flour",
+          "quantity": "1/4 cup"
+        },
+        {
+          "id": 3,
+          "ingredientName": "kosher salt",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "id": 4,
+          "ingredientName": "eggs",
+          "quantity": "2 large"
+        },
+        {
+          "id": 5,
+          "ingredientName": "breadcrumbs",
+          "quantity": "1/2 cup"
+        },
+        {
+          "id": 6,
+          "ingredientName": "lemon",
+          "quantity": "4 slices"
+        }
+      ],
+      "instructions": "1. Pound the meat evenly to 1/4-inch thickness for best results. \n2. To bread the schnitzels, set up 3 shallow dishes: Mix the flour and salt in the first dish, the beaten eggs in the second dish, and the breadcrumbs in the third dish. \n3. In a large skillet, heat at least 1/4-inch of oil to 350 F. This takes about 8 minutes.\n4. Working one at a time, dredge cutlets first in flour until the surface is completely dry.\n5. Dip in egg to coat, allow the excess to drip off for a few seconds.\n6. Then roll quickly in the breadcrumbs until coated. Do not press the breadcrumbs into the meat, as this will moisten them and not make for a crispy coating. The crust should not adhere completely but form a loose shell around the schnitzel.\n7. Immediately place meat in the pan with the hot oil. Do not crowd the pan. Cook the schnitzel in batches, if necessary. Just make sure to allow enough time between batches to allow the oil to come back up to 350 F.\n8. Fry the schnitzel for 2 to 3 minutes on one side, until golden brown. Make sure the breaded meat “swims” in fat. Contrary to instinct, the breading will take on less oil than if the meat is sticking to the pan. Also, the breadcrumb topping has a chance to puff up a little, and your cleanup is easier. You may want to swish them around a little with your fork to make sure they are not sticking to the pan.\n9. Turn them over once and fry an additional 2 to 3 minutes or until both sides are golden brown and the meat registers an internal temperature of 145 F. Remove from pan and allow the oil to drain off.\n10. Serve in the traditional manner with lemon slices, as well as potato salad, cucumber salad, or fries. Enjoy.",
+      "id": 6
+    },
+    {
       "name": "test",
-      "author": "test",
+      "author": "alice",
       "countrycode": "AO",
       "description": "test",
       "img": "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
       "ingredients": [
         {
           "id": 1,
-          "ingredientName": "",
-          "quantity": "test",
-          "ingredient": "test"
+          "ingredientName": "testing",
+          "quantity": "500 g"
         },
         {
           "id": 2,
-          "ingredientName": "",
-          "quantity": "test2",
-          "ingredient": "test2"
+          "ingredientName": "eggs",
+          "quantity": "4"
         }
       ],
       "instructions": "testing...",
-      "id": 5
+      "id": 7
     }
   ]
 }

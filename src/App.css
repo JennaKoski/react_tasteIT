@@ -142,7 +142,7 @@ h2 {
 
 .card {
   width: 20vw;
-  min-height: 55vh;
+  min-height: 65vh;
   margin: 2rem;
   border-radius: 5px;
   border-width: 1px;
@@ -209,6 +209,7 @@ h2 {
 
 .recipecontent_img {
   width: 30vw;
+  border-radius: 3px;
 }
 
 .recipecontent_flag {
@@ -221,21 +222,41 @@ h2 {
   left: -15px;
 }
 
-/* .ul_recipecontent {} */
+.ul_recipecontent {
+  background: transparent;
+  margin: 1rem 0;
+  position: relative;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 3px;
+}
 
 .ul_recipecontent li {
   margin: 1rem;
+  list-style-type: none;
+  border-bottom: 1px dotted rgb(145, 145, 145);
+  text-transform: lowercase;
 }
 
-.name_description_instructions {
+.description_instructions {
   margin: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+}
+
+.description_instructions p {
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.description_instructions p::first-letter {
+  text-transform: capitalize;
+}
+
+.description_instructions p span {
+  text-transform: capitalize;
 }
 
 /* AddRecipe */
-
 .form {
   margin: 3rem 10rem;
   display: flex;

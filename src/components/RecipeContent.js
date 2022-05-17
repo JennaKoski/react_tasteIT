@@ -25,15 +25,17 @@ const RecipeContent = () => {
             {recipe.ingredients?.map((ingredient) => {
               return (
                 <li>
-                  {ingredient.quantity} {ingredient.ingredientName}
+                  {ingredient.quantity} - {ingredient.ingredientName}
                 </li>
               );
             })}
           </ul>
         </div>
-        <div className="name_description_instructions">
+        <div className="description_instructions">
           <p>{recipe.description}</p>
-          <p>Author of the recipe: {recipe.author}</p>
+          <p>
+            Author of the recipe: <span>{recipe.author}</span>
+          </p>
           <p>{recipe.instructions}</p>
         </div>
       </div>

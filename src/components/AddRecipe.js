@@ -95,10 +95,10 @@ const AddRecipe = () => {
                 />
               </div>
               <div className="ingredient">
-                <label htmlFor="ingredient">Ingredient</label>
+                <label htmlFor="ingredientName">Ingredient</label>
                 <input
                   type="text"
-                  name="ingredient"
+                  name="ingredientName"
                   id="ingredient"
                   onChange={(e) => changeIngData(e, i)}
                 />
