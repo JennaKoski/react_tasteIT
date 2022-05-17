@@ -4,7 +4,7 @@
       "name": "pancakes",
       "author": "Jenna",
       "countrycode": "FI",
-      "description": "asdasdasdasd",
+      "description": "Traditional Finnish dessert.",
       "img": "https://www.wholesomeyum.com/wp-content/uploads/2017/03/wholesomeyum-Low-Carb-Keto-Pancakes-Recipe-21.jpg",
       "ingredients": [
         {
@@ -23,14 +23,14 @@
           "quantity": "5 dl"
         }
       ],
-      "instructions": "asdasdasd",
+      "instructions": "In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth. Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.",
       "id": 1
     },
     {
       "name": "lasagne",
       "author": "Giulietta",
       "countrycode": "IT",
-      "description": "asdasdasdasd",
+      "description": "Traditional Italian pasta food",
       "img": "https://kapustanvarressa.files.wordpress.com/2020/08/img_20200723_184316_178.jpg",
       "ingredients": [
         {
@@ -49,8 +49,123 @@
           "quantity": "4 dl"
         }
       ],
-      "instructions": "asdasdasd",
+      "instructions": "Layer up the lasagne in a baking dish, starting with a third each of the ragu, then the pasta, then the white sauce. Repeat twice. Top with the Parmesan and mozzarella then bake in the oven for 40-45 mins, until piping hot and crisp and bubbling on top. Serve immediately.",
       "id": 2
+    },
+    {
+      "name": "Salmon tartare",
+      "author": "Jenna K",
+      "countrycode": "FI",
+      "description": "Traditional Finnish starter",
+      "img": "http://www.aromipaja.fi/wp-content/uploads/Lohitartar-basilikakreemi_4.jpg",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "Cured salmon",
+          "quantity": "500 g"
+        },
+        {
+          "id": 2,
+          "ingredientName": "Salt",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "id": 3,
+          "ingredientName": "Sugar",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "id": 4,
+          "ingredientName": "Chives",
+          "quantity": "1/2 dl"
+        },
+        {
+          "id": 5,
+          "ingredientName": "Lime juice",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "id": 6,
+          "ingredientName": "Black pepper",
+          "quantity": "1 teaspoon"
+        }
+      ],
+      "instructions": "Chop the ingredients and put them together. Serve with rye bread.",
+      "id": 3
+    },
+    {
+      "name": "Ceviche",
+      "author": "Juan",
+      "countrycode": "PE",
+      "description": "This ceviche recipe, a classic no-cook summer appetizer, works with any fresh fish fillet with mild flavor, like halibut or snapper. ",
+      "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2013%2F05%2F201004-r-classic-ceviche.jpg",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "snapper or other ocean fish fillets",
+          "quantity": "1 pound"
+        },
+        {
+          "id": 2,
+          "ingredientName": "lime juice",
+          "quantity": "1,5 cups"
+        },
+        {
+          "id": 3,
+          "ingredientName": "white onion",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "ingredientName": "tomatoes",
+          "quantity": "2"
+        },
+        {
+          "id": 5,
+          "ingredientName": "fresh hot green chiles",
+          "quantity": "2-3"
+        },
+        {
+          "id": 6,
+          "ingredientName": "cilantro",
+          "quantity": "0,5 cup"
+        },
+        {
+          "id": 7,
+          "ingredientName": "extra virgin olive oil",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "id": 8,
+          "ingredientName": "avocado",
+          "quantity": "1"
+        }
+      ],
+      "instructions": "In a 1 1/2-quart glass or stainless steel bowl, combine the fish, lime juice and onion. Use enough juice to cover the fish and allow it to float freely; too little juice means unevenly \"cooked\" fish. Cover and refrigerate for about 4 hours, until a cube of fish no longer looks raw when broken open. Drain in a colander.\nIn a large bowl, mix together the tomatoes, green chiles, cilantro, olives and optional olive oil. Stir in the fish and season with salt, usually about 1/2 teaspoon. Add the orange juice or sugar. Cover and refrigerate if not serving immediately. Just before serving, gently stir in the diced avocado.",
+      "id": 4
+    },
+    {
+      "name": "test",
+      "author": "test",
+      "countrycode": "AO",
+      "description": "test",
+      "img": "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "",
+          "quantity": "test",
+          "ingredient": "test"
+        },
+        {
+          "id": 2,
+          "ingredientName": "",
+          "quantity": "test2",
+          "ingredient": "test2"
+        }
+      ],
+      "instructions": "testing...",
+      "id": 5
     }
   ]
 }

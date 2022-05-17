@@ -14,7 +14,7 @@ const Home = () => {
           TasteIT is a recipe app made in REACT22K group React lessons
         </p>
         <li>
-          <Link to="/recipecard">Browse recipes</Link>
+          <Link to="/recipelist">Browse recipes</Link>
         </li>
       </div>
 

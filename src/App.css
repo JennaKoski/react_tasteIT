@@ -148,12 +148,17 @@ h2 {
   border-width: 1px;
   border-style: solid;
   border-color: rgb(199, 186, 129);
+  position: relative;
 }
 
 .card_flag {
   width: 2rem;
   height: 2rem;
+  object-fit: cover;
   border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
 }
 
 .card_img {
@@ -182,7 +187,54 @@ h2 {
   text-shadow: 0 0 6px white;
 }
 
-/* Add new recipe */
+/* RecipeContent */
+
+.recipeContent_container h2 {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.recipeContent {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+
+.flag_img_ingredients {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 2rem;
+}
+
+.recipecontent_img {
+  width: 30vw;
+}
+
+.recipecontent_flag {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+
+/* .ul_recipecontent {} */
+
+.ul_recipecontent li {
+  margin: 1rem;
+}
+
+.name_description_instructions {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* AddRecipe */
 
 .form {
   margin: 3rem 10rem;
@@ -199,8 +251,7 @@ select {
   width: 40vw;
 }
 
-#description,
-#instructions {
+#description {
   height: 10vh;
 }
 
@@ -215,7 +266,7 @@ select {
   align-items: center;
 }
 
-.ingredient {
+.quantity {
   margin-right: 3.5rem;
 }
 
@@ -224,10 +275,18 @@ select {
   width: 18vw;
 }
 
+#instructions {
+  width: 40vw;
+  height: 20vh;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
 button {
   padding: 0.5rem;
   border-radius: 5px;
-  width: 10vw;
+  width: 15vw;
   border-width: 2px;
   margin-bottom: 1rem;
   background-color: rgb(199, 186, 129);
