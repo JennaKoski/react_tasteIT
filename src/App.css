@@ -142,7 +142,7 @@ h2 {
 
 .card {
   width: 20vw;
-  min-height: 65vh;
+  height: 25rem;
   margin: 2rem;
   border-radius: 5px;
   border-width: 1px;
@@ -164,6 +164,7 @@ h2 {
 .card_img {
   object-fit: cover;
   width: 100%;
+  height: 250px;
   border-radius: 5px 5px 0 0;
 }
 
@@ -188,6 +189,18 @@ h2 {
 }
 
 /* RecipeContent */
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_input {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 5px;
+}
 
 .recipeContent_container h2 {
   text-transform: capitalize;

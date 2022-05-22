@@ -1,12 +1,11 @@
 import React from "react";
-import background from "../assets/video.mp4";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
       <video className="bgvideo" autoPlay loop muted>
-        <source src={background} type="video/mp4" />
+        <source src="video.mp4" type="video/mp4" />
       </video>
       <div className="home_herotext">
         <h1>TasteIT</h1>
@@ -42,6 +41,11 @@ const Home = () => {
           <p className="home_paragraphs">
             Visit our website to see our other projects
           </p>
+          <li>
+            <a href="https://www.bc.fi/" target="_blank" rel="noreferrer">
+              BC Helsinki
+            </a>
+          </li>
         </div>
       </div>
     </div>

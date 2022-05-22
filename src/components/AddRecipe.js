@@ -56,7 +56,7 @@ const AddRecipe = () => {
   };
 
   return (
-    <form on onSubmit={submitData}>
+    <form onSubmit={submitData}>
       <h2>Add new recipe</h2>
       <div className="form">
         <label htmlFor="name">Recipe name</label>
